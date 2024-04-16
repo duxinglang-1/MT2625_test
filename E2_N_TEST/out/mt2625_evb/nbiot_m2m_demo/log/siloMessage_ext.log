@@ -1,0 +1,35 @@
+2023-01-06 11:27:31.048   INFO    : Full path of base silox db = e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/silo_db_ext.sox
+2023-01-06 11:27:31.049   INFO    : Full path of silo-msgs log = e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/siloMessage_ext.log
+2023-01-06 11:27:31.049   VERBOSE : Verbose logging has been switched on
+2023-01-06 11:27:31.049   INFO    : List of Input Source Files = ../../../../../tools/scripts/silox/Customized_SiloDB_srclist.txt
+2023-01-06 11:27:31.049   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\N1\NBIOT_MT2625_N1\project\mt2625_evb\apps\nbiot_m2m_demo\GCCdleware\MTK\nbiot_custom\gkiprintf\gki_trace.h
+2023-01-06 11:27:31.049   INFO    : Number of gki_trace files to parse: 1
+2023-01-06 11:27:31.049   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\gkiprintf\gki_trace.h
+2023-01-06 11:27:31.049   VERBOSE : Log point detected on line# 68
+2023-01-06 11:27:31.049   INFO    : a_tracefile : "middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h" ;
+2023-01-06 11:27:31.049   VERBOSE : into SetModuleIdInfo()
+2023-01-06 11:27:31.049   INFO    : a_tracefile = "middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h"
+2023-01-06 11:27:31.049   VERBOSE : Log point detected on line# 69
+2023-01-06 11:27:31.049   INFO    : a_tracefile : "middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h" ;
+2023-01-06 11:27:31.049   VERBOSE : into SetModuleIdInfo()
+2023-01-06 11:27:31.049   INFO    : a_tracefile = "middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h"
+2023-01-06 11:27:31.049   VERBOSE : No new log points detected
+2023-01-06 11:27:31.049   INFO    : Number of module_gki_trace files to parse: 1
+2023-01-06 11:27:31.049   INFO    : ProcessSingleFile(filep), filep = middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2023-01-06 11:27:31.049   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\N1\NBIOT_MT2625_N1\middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2023-01-06 11:27:31.049   INFO    : ProcessSingleFile(filep), filep = middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h
+2023-01-06 11:27:31.049   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\N1\NBIOT_MT2625_N1\middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h
+2023-01-06 11:27:31.049   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\gkiprintf\cust_gki_trace.h
+2023-01-06 11:27:31.049   VERBOSE : No new log points detected
+2023-01-06 11:27:31.049   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2023-01-06 11:27:31.049   VERBOSE : Log point detected on line# 42
+2023-01-06 11:27:31.049   VERBOSE : Format specifier detected: %ld
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 43
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 44
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 45
+2023-01-06 11:27:31.052   VERBOSE : Format specifier detected: %ld
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 46
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 47
+2023-01-06 11:27:31.052   VERBOSE : Log point detected on line# 48
+2023-01-06 11:27:31.052   VERBOSE : No new log points detected
+2023-01-06 11:27:31.058   INFO    : Silo parsing took 16ms.

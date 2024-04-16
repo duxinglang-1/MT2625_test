@@ -1,0 +1,273 @@
+2022-12-05 19:34:04.298   INFO    : Database: e:/n1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/silo_db_ext.sox
+2022-12-05 19:34:04.317   INFO    : Full path of base silox db = e:/n1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/silo_db_ext.sox
+2022-12-05 19:34:04.317   INFO    : Full path of silo-msgs log = e:/n1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/siloMessage_ext.log
+2022-12-05 19:34:04.317   VERBOSE : Verbose logging has been switched on
+2022-12-05 19:34:04.317   INFO    : List of Input Source Files = ../../../../../tools/scripts/silox/Customized_SiloDB_srclist.txt
+2022-12-05 19:34:04.317   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\n1\NBIOT_MT2625_N1\project\mt2625_evb\apps\nbiot_m2m_demo\GCCdleware\MTK\nbiot_custom\gkiprintf\gki_trace.h
+2022-12-05 19:34:04.317   INFO    : Number of gki_trace files to parse: 1
+2022-12-05 19:34:04.317   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\gkiprintf\gki_trace.h
+2022-12-05 19:34:04.317   VERBOSE : Log point detected on line# 68
+2022-12-05 19:34:04.317   INFO    : a_tracefile : "middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h" ;
+2022-12-05 19:34:04.317   VERBOSE : into SetModuleIdInfo()
+2022-12-05 19:34:04.317   INFO    : a_tracefile = "middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h"
+2022-12-05 19:34:04.317   VERBOSE : Log point detected on line# 69
+2022-12-05 19:34:04.317   INFO    : a_tracefile : "middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h" ;
+2022-12-05 19:34:04.317   VERBOSE : into SetModuleIdInfo()
+2022-12-05 19:34:04.317   INFO    : a_tracefile = "middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h"
+2022-12-05 19:34:04.317   VERBOSE : No new log points detected
+2022-12-05 19:34:04.317   INFO    : Number of module_gki_trace files to parse: 1
+2022-12-05 19:34:04.317   INFO    : ProcessSingleFile(filep), filep = middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2022-12-05 19:34:04.317   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\n1\NBIOT_MT2625_N1\middleware\MTK\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2022-12-05 19:34:04.317   INFO    : ProcessSingleFile(filep), filep = middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h
+2022-12-05 19:34:04.318   INFO    : [g_curr_pwd is not used] The converted 'fileToProcess' is e:\n1\NBIOT_MT2625_N1\middleware\MTK\nbiot_custom\gkiprintf\cust_gki_trace.h
+2022-12-05 19:34:04.318   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\gkiprintf\cust_gki_trace.h
+2022-12-05 19:34:04.318   VERBOSE : No new log points detected
+2022-12-05 19:34:04.318   VERBOSE : Processing: e:\n1\nbiot_mt2625_n1\middleware\mtk\nbiot_custom\l4\atci.mod\inc\atci_gki_trace.h
+2022-12-05 19:34:04.318   VERBOSE : Log point detected on line# 42
+2022-12-05 19:34:04.318   VERBOSE : Format specifier detected: %ld
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 43
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 44
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 45
+2022-12-05 19:34:04.320   VERBOSE : Format specifier detected: %ld
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 46
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 47
+2022-12-05 19:34:04.320   VERBOSE : Log point detected on line# 48
+2022-12-05 19:34:04.320   VERBOSE : No new log points detected
+2022-12-05 19:34:04.323   INFO    : Silo parsing took 0ms.
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'ch_fixed_lenth_parse':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:91:2: warning: pointer targets in passing argument 1 of 'strncpy' differ in signedness [-Wpointer-sign]
+  strncpy(tmp_buf,buf,fix_len);
+  ^
+In file included from e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\stdio.h:29:0,
+                 from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:3:
+e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\string.h:36:8: note: expected 'char * restrict' but argument is of type 'u8 *'
+ char  *_EXFUN(strncpy,(char *__restrict, const char *__restrict, size_t));
+        ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:91:2: warning: pointer targets in passing argument 2 of 'strncpy' differ in signedness [-Wpointer-sign]
+  strncpy(tmp_buf,buf,fix_len);
+  ^
+In file included from e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\stdio.h:29:0,
+                 from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:3:
+e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\string.h:36:8: note: expected 'const char * restrict' but argument is of type 'u8 *'
+ char  *_EXFUN(strncpy,(char *__restrict, const char *__restrict, size_t));
+        ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:92:2: warning: pointer targets in passing argument 1 of 'atoi' differ in signedness [-Wpointer-sign]
+  return atoi(tmp_buf);
+  ^
+In file included from e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\stdio.h:29:0,
+                 from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:3:
+e:\n1\nbiot_mt2625_n1\tools\gcc\win\gcc-arm-none-eabi\arm-none-eabi\include\stdlib.h:73:5: note: expected 'const char *' but argument is of type 'u8 *'
+ int _EXFUN(atoi,(const char *__nptr));
+     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqttrec_analysis':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:122:6: warning: implicit declaration of function 'applib_dt_mytime_2_utc_sec' [-Wimplicit-function-declaration]
+      local_time = applib_dt_mytime_2_utc_sec(&rtc_time);
+      ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:150:4: warning: implicit declaration of function 'hal_rtc_chuhuiset_utc_time' [-Wimplicit-function-declaration]
+    hal_rtc_chuhuiset_utc_time(prtbuf); 
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:117:28: warning: unused variable 'anpoint' [-Wunused-variable]
+   char *temp_point = NULL,*anpoint = NULL;
+                            ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:116:64: warning: unused variable 'recafter_time' [-Wunused-variable]
+   unsigned int local_time = 0,sent_bagtime = 0,rec_bagtime = 0,recafter_time = 0,len = 0;
+                                                                ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:116:48: warning: unused variable 'rec_bagtime' [-Wunused-variable]
+   unsigned int local_time = 0,sent_bagtime = 0,rec_bagtime = 0,recafter_time = 0,len = 0;
+                                                ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:116:31: warning: unused variable 'sent_bagtime' [-Wunused-variable]
+   unsigned int local_time = 0,sent_bagtime = 0,rec_bagtime = 0,recafter_time = 0,len = 0;
+                               ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:116:16: warning: variable 'local_time' set but not used [-Wunused-but-set-variable]
+   unsigned int local_time = 0,sent_bagtime = 0,rec_bagtime = 0,recafter_time = 0,len = 0;
+                ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_create':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:216:5: warning: format '%d' expects argument of type 'int', but argument 8 has type 'uint32_t' [-Wformat=]
+     total= sprintf(tem,"AT+EMQNEW=\"%d.%d.%d.%d\",\"%d\",%d,%d",ip_addr[0],ip_addr[1],ip_addr[2],ip_addr[3],port,command_timeout_ms,buf_size);
+     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:216:5: warning: format '%d' expects argument of type 'int', but argument 9 has type 'uint32_t' [-Wformat=]
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:226:2: warning: implicit declaration of function 'apb_proxy_hdlr_mqtt_new_cmd' [-Wimplicit-function-declaration]
+  return apb_proxy_hdlr_mqtt_new_cmd(&parm);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:214:21: warning: unused variable 'status' [-Wunused-variable]
+  apb_proxy_status_t status;
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_connect':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:259:3: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+   total= sprintf(tem,"AT+EMQCON=%d,%d,\"%s\",%d,%d,%d",mqtt_id,version,client_id,keepalive_internal,cleansession,will_flag);
+   ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:259:3: warning: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' [-Wformat=]
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:263:3: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+   total= sprintf(tem,"AT+EMQCON=%d,%d,\"%s\",%d,%d,%d,\"%s\",\"%s\"",mqtt_id,version,client_id,keepalive_internal,cleansession,will_flag,username,password);
+   ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:263:3: warning: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' [-Wformat=]
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:273:2: warning: implicit declaration of function 'apb_proxy_hdlr_mqtt_connect_cmd' [-Wimplicit-function-declaration]
+  return apb_proxy_hdlr_mqtt_connect_cmd(&parm);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:255:21: warning: unused variable 'status' [-Wunused-variable]
+  apb_proxy_status_t status;
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_publish':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:335:2: warning: implicit declaration of function 'onenet_at_bin_to_hex' [-Wimplicit-function-declaration]
+  onenet_at_bin_to_hex(hex_data_buf,hex_message,message_len*2);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:336:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+  total= sprintf(tem,"AT+EMQPUB=%d,\"%s\",%d,%d,%d,%d,\"%s\"",mqtt_id,topic,1,0,0,message_len*2,hex_data_buf);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:348:2: warning: implicit declaration of function 'apb_proxy_hdlr_mqtt_publish_cmd' [-Wimplicit-function-declaration]
+  return apb_proxy_hdlr_mqtt_publish_cmd(&parm);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:331:21: warning: unused variable 'status' [-Wunused-variable]
+  apb_proxy_status_t status;
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:329:15: warning: unused variable 'i' [-Wunused-variable]
+     int total,i;
+               ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_sublish':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:366:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+     total= sprintf(tem,"AT+EMQSUB=%d,\"%s\",%d",mqtt_id,topic,QoS);
+     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:366:5: warning: format '%d' expects argument of type 'int', but argument 5 has type 'uint32_t' [-Wformat=]
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:375:2: warning: implicit declaration of function 'apb_proxy_hdlr_mqtt_subscribe_cmd' [-Wimplicit-function-declaration]
+  return apb_proxy_hdlr_mqtt_subscribe_cmd(&parm);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:364:21: warning: unused variable 'status' [-Wunused-variable]
+  apb_proxy_status_t status;
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:362:15: warning: unused variable 'i' [-Wunused-variable]
+     int total,i;
+               ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_message_handler':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:387:2: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+  sprintf(msg_tmp_buf,"%d,%s,%d,%d,%s",mqtt_id,topic,dup,message_len,msg_tmp_buf2);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:387:2: warning: format '%d' expects argument of type 'int', but argument 6 has type 'uint32_t' [-Wformat=]
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_test_adress_bag':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:405:2: warning: implicit declaration of function 'ctiot_lwm2m_command_address' [-Wimplicit-function-declaration]
+  ctiot_lwm2m_command_address(ptr,0);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'm2m_mqtt_disconect':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:432:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' [-Wformat=]
+     total= sprintf(tem,"AT+EMQDISCON=%d",mqtt_id);
+     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:444:2: warning: implicit declaration of function 'apb_proxy_hdlr_mqtt_disconnect_cmd' [-Wimplicit-function-declaration]
+  return apb_proxy_hdlr_mqtt_disconnect_cmd(&parm);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:430:21: warning: unused variable 'status' [-Wunused-variable]
+  apb_proxy_status_t status;
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'n1_mqtt_create':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:498:3: warning: implicit declaration of function 'n1_mqtt_disconnect' [-Wimplicit-function-declaration]
+   n1_mqtt_disconnect(g_mqtt_id);
+   ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: At top level:
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:555:6: warning: conflicting types for 'n1_mqtt_disconnect' [enabled by default]
+ void n1_mqtt_disconnect(uint32_t mqtt_id)
+      ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:498:3: note: previous implicit declaration of 'n1_mqtt_disconnect' was here
+   n1_mqtt_disconnect(g_mqtt_id);
+   ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'n1_mqtt_send_fifo':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:584:4: warning: implicit declaration of function 'str_to_hex' [-Wimplicit-function-declaration]
+    str_to_hex(temp_info1.m2m_send_temp_Queue[i],temp_info.data_buffer_hex);
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'check_medicine_remind':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:759:2: warning: implicit declaration of function 'CaculateWeekDay' [-Wimplicit-function-declaration]
+  rtc_week = CaculateWeekDay(curtime.rtc_year+2000,curtime.rtc_mon,curtime.rtc_day);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'get_curr_date_medicine_remind':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:880:7: warning: unused variable 'ret' [-Wunused-variable]
+  bool ret = false;
+       ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'get_curr_index_medicine_remind':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:924:10: warning: variable 'rtc_week' set but not used [-Wunused-but-set-variable]
+  uint8_t rtc_week = 0; 
+          ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'get_curr_time_medicine_remind':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:983:2: warning: 'return' with a value, in function returning void [enabled by default]
+  return ret;
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:956:10: warning: variable 'rtc_week' set but not used [-Wunused-but-set-variable]
+  uint8_t rtc_week = 0; 
+          ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'clear_curr_medicine_remind':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1439:10: warning: variable 'rtc_week' set but not used [-Wunused-but-set-variable]
+  uint8_t rtc_week = 0; 
+          ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_delect_delay_hanlde':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1475:2: warning: implicit declaration of function 'sbit_m2m_ct_delect_hanlde' [-Wimplicit-function-declaration]
+  sbit_m2m_ct_delect_hanlde(NULL,0);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_send_hanlde':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1559:22: warning: variable 'cmd_ret' set but not used [-Wunused-but-set-variable]
+  apb_proxy_status_t  cmd_ret = APB_PROXY_STATUS_ERROR;
+                      ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: At top level:
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1579:6: warning: conflicting types for 'sbit_m2m_ct_delect_hanlde' [enabled by default]
+ void sbit_m2m_ct_delect_hanlde(char *data,int len)
+      ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1475:2: note: previous implicit declaration of 'sbit_m2m_ct_delect_hanlde' was here
+  sbit_m2m_ct_delect_hanlde(NULL,0);
+  ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_recv_hanlde':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1838:3: warning: implicit declaration of function 'sbit_set_vib_time' [-Wimplicit-function-declaration]
+   sbit_set_vib_time(0,1);
+   ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_handle':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1891:4: warning: implicit declaration of function 'sbit_demo_backlight' [-Wimplicit-function-declaration]
+    sbit_demo_backlight();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1929:6: warning: implicit declaration of function 'delay_cfun_OffOn' [-Wimplicit-function-declaration]
+      delay_cfun_OffOn();
+      ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:1949:5: warning: passing argument 5 of 'xTimerCreate' from incompatible pointer type [enabled by default]
+     sbit_m2m_ct_cfun_off);
+     ^
+In file included from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:11:0:
+../../../../../kernel/rtos/FreeRTOS/Source/include/timers.h:260:15: note: expected 'TimerCallbackFunction_t' but argument is of type 'void (*)(void)'
+ TimerHandle_t xTimerCreate( const char * const pcTimerName, const TickType_t xTimerPeriodInTicks, const UBaseType_t uxAutoReload, void * const pvTimerID, TimerCallbackFunction_t pxCallbackFunction ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+               ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2006:4: warning: passing argument 5 of 'xTimerCreate' from incompatible pointer type [enabled by default]
+    sbit_m2m_ct_delect_delay_hanlde);
+    ^
+In file included from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:11:0:
+../../../../../kernel/rtos/FreeRTOS/Source/include/timers.h:260:15: note: expected 'TimerCallbackFunction_t' but argument is of type 'void (*)(void)'
+ TimerHandle_t xTimerCreate( const char * const pcTimerName, const TickType_t xTimerPeriodInTicks, const UBaseType_t uxAutoReload, void * const pvTimerID, TimerCallbackFunction_t pxCallbackFunction ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+               ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2075:4: warning: implicit declaration of function 'H10_send_ack_T86' [-Wimplicit-function-declaration]
+    H10_send_ack_T86();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2081:4: warning: implicit declaration of function 'H10_send_ack_T87' [-Wimplicit-function-declaration]
+    H10_send_ack_T87();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2087:4: warning: implicit declaration of function 'H10_send_data_T100' [-Wimplicit-function-declaration]
+    H10_send_data_T100();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2093:4: warning: implicit declaration of function 'H10_send_data_T101' [-Wimplicit-function-declaration]
+    H10_send_data_T101();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2105:4: warning: implicit declaration of function 'H10_send_gettime_data' [-Wimplicit-function-declaration]
+    H10_send_gettime_data();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2116:4: warning: implicit declaration of function 'H10_send_T15_ack' [-Wimplicit-function-declaration]
+    H10_send_T15_ack();
+    ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2228:9: warning: unused variable 'mqttid' [-Wunused-variable]
+     int mqttid;
+         ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_ril_callback':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2288:5: warning: format '%d' expects argument of type 'int', but argument 3 has type 'int32_t' [-Wformat=]
+     sprintf(tem,"%d",cereg_status->stat);
+     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c: In function 'sbit_m2m_ct_init':
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2326:5: warning: passing argument 2 of 'ril_register_event_callback' from incompatible pointer type [enabled by default]
+     ret = ril_register_event_callback(RIL_GROUP_MASK_ALL, sbit_m2m_ct_ril_callback);
+     ^
+In file included from ../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:18:0:
+../../../../../middleware/MTK/ril/inc/ril.h:553:21: note: expected 'ril_event_callback_t' but argument is of type 'void (*)(enum ril_urc_id_t,  void *, uint32_t)'
+ extern ril_status_t ril_register_event_callback(uint32_t group_mask, ril_event_callback_t callback);
+                     ^
+../../../../../project/mt2625_evb/apps/nbiot_m2m_demo/src/h10_init.c:2319:18: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+     ril_status_t ret;
+                  ^
+e:\n1\NBIOT_MT2625_N1\tools\gcc\win\gcc-arm-none-eabi\bin\arm-none-eabi-ar.exe: creating e:/n1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/custom_lib_md.a

@@ -1,0 +1,35 @@
+/e/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/obj/middleware/MTK/nbiot_custom/l4/atci.mod/src/rvcfg.o /e/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/obj/middleware/MTK/nbiot_custom/l4/atci.mod/src/rvcfg.d: ../../../middleware/MTK/nbiot_custom/l4/atci.mod/src/rvcfg.c \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/system.h \
+ ../../../driver/CMSIS/Device/MTK/mt2625/Include/memory_attribute.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/ttconfig.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/stdbool.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/stripperinit.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/exsystem.h \
+ ../../../middleware/MTK/nbiot_custom/l4/atci.mod/inc/rvcfg.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/gkitask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kitqid.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kitskdef.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kisystsk.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/modem/config/nbiot_modem_common_config.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kitask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/testtask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/l1task.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/dmtask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/pstask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/aftask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/mediatask.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kicfg.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/kigcc_arm.h \
+ ../../../driver/chip/mt2625/inc/hal_nvic_internal.h \
+ ../../../driver/chip/inc/hal_nvic.h \
+ ../../../driver/chip/mt2625/inc/hal_platform.h \
+ ../../../driver/chip/inc/hal_define.h \
+ e:/NBIOT_MT2625_N1/project/mt2625_evb/apps/nbiot_m2m_demo/GCC/../inc/hal_feature_config.h \
+ ../../../driver/CMSIS/Device/MTK/mt2625/Include/mt2625.h \
+ ../../../driver/CMSIS/Include/core_cm4.h \
+ ../../../driver/CMSIS/Include/core_cmInstr.h \
+ ../../../driver/CMSIS/Include/core_cmFunc.h \
+ ../../../driver/CMSIS/Include/core_cmSimd.h \
+ ../../../driver/CMSIS/Device/MTK/mt2625/Include/system_mt2625.h \
+ ../../../driver/chip/mt2625/inc/hal_weak.h \
+ e:/NBIOT_MT2625_N1/project/mt2625_evb/apps/nbiot_m2m_demo/GCC/../inc/memory_map.h

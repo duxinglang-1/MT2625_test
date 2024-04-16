@@ -1,0 +1,182 @@
+2018-08-11 15:26:54:0901 I [EPTMain] 4428@WIN7
+2018-08-11 15:26:54:0902 I [EPTMain] EPTMain Pid:4428
+2018-08-11 15:26:54:0903 I [EPTUtil] getOutputPath: E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept
+2018-08-11 15:26:54:0903 I [EPTUtil] getOutputPath: E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept
+2018-08-11 15:26:54:0906 I [EPTUtil] run in ept GUI jar
+2018-08-11 15:26:58:0495 I [EPTEditor] open Action,mIsSave=true mIsEdited=false
+2018-08-11 15:27:16:0203 I [EPTEditor] EPTEditor Open EWSFile: MT2625 EVB_DWS_GPS_20171113a.ews
+2018-08-11 15:27:16:0215 I [EPTEditor] OpenAction start
+2018-08-11 15:27:16:0216 I [Controller] openWorkspace, open workspace: E:\Z6\project\mt2625_evb\apps\nbiot_m2m_demo\ept_config\MT2625 EVB_DWS_GPS_20171113a.ews
+2018-08-11 15:27:16:0267 I [Controller] openEWS, import ews file and sync data: E:\Z6\project\mt2625_evb\apps\nbiot_m2m_demo\ept_config\MT2625 EVB_DWS_GPS_20171113a.ews
+2018-08-11 15:27:16:0267 I [FileParser] parseChipFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\platform\2625.chip
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = Chip Type
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = VOLTAGE_TYPE
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = DVDD_IO
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = EINT
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = KEYPAD
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = KEYPAD_EXTEND_TYPE
+2018-08-11 15:27:16:0268 I [FileParser] parseChipFile, parse section = GPIO
+2018-08-11 15:27:16:0269 I [FileParser] parseChipFile, parse section = GPIO_USED
+2018-08-11 15:27:16:0269 I [FileParser] parseChipFile, parse section = PUPD,3.3V
+2018-08-11 15:27:16:0269 I [FileParser] parseChipFile, parse section = PUPD1,3.3V
+2018-08-11 15:27:16:0269 I [FileParser] parseChipFile, parse section = PUPD2,3.3V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD3,3.3V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD4,3.3V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD5,3.3V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD6,3.3V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD,2.8V
+2018-08-11 15:27:16:0270 I [FileParser] parseChipFile, parse section = PUPD1,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD2,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD3,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD4,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD5,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD6,2.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD,1.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD1,1.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD2,1.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD3,1.8V
+2018-08-11 15:27:16:0271 I [FileParser] parseChipFile, parse section = PUPD4,1.8V
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = PUPD5,1.8V
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = PUPD6,1.8V
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = DEFAULT_PUPD
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = GPIO_PREDEFINED_MACRO_STRING
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = MACRO_DEFINE
+2018-08-11 15:27:16:0272 I [FileParser] parseChipFile, parse section = GPIO_variables
+2018-08-11 15:27:16:0273 I [FileParser] parseChipFile, parse section = GPIO_variables_default_map
+2018-08-11 15:27:16:0273 I [FileParser] parseChipFile, parse section = EINT_variables
+2018-08-11 15:27:16:0273 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\gpio.conf
+2018-08-11 15:27:16:0273 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\eint.conf
+2018-08-11 15:27:16:0274 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\keypad.conf
+2018-08-11 15:27:16:0274 I [Controller] parseChipConfig, done
+2018-08-11 15:27:16:0274 I [EPTEditor] SaveAction/OpenAction time=0
+2018-08-11 15:27:16:0376 I [GPIOEditor] updateGPIOTable, gpio index = 0, mode = NC
+2018-08-11 15:27:16:0376 I [GPIOInfo] setUserInfo, pinIndex=0, info=No User
+2018-08-11 15:27:16:0378 I [GPIOEditor] updateGPIOTable, gpio index = 1, mode = 4:KP_COL1
+2018-08-11 15:27:16:0378 I [GPIOEditor] updateGPIOTable set Used for Used for KP_COL1
+2018-08-11 15:27:16:0378 I [GPIOInfo] setVarStr, pinIndex=1, varStr=
+2018-08-11 15:27:16:0379 I [GPIOInfo] setVarStr, pinIndex=1, varStr=HAL_KEYPAD_COL1_PIN
+2018-08-11 15:27:16:0381 I [GPIOEditor] updateGPIOTable, gpio index = 2, mode = 1:UART0_RXD
+2018-08-11 15:27:16:0381 I [GPIOEditor] updateGPIOTable set Used for Used for UART0_RXD
+2018-08-11 15:27:16:0383 I [GPIOInfo] setVarStr, pinIndex=2, varStr=
+2018-08-11 15:27:16:0383 I [GPIOInfo] setVarStr, pinIndex=2, varStr=HAL_UART0_RXD_PIN
+2018-08-11 15:27:16:0385 I [GPIOEditor] updateGPIOTable, gpio index = 3, mode = 0:GPIO3
+2018-08-11 15:27:16:0385 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO3
+2018-08-11 15:27:16:0386 I [GPIOEditor] updateGPIOTable, gpio index = 4, mode = 0:GPIO4
+2018-08-11 15:27:16:0386 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO4
+2018-08-11 15:27:16:0388 I [GPIOEditor] updateGPIOTable, gpio index = 5, mode = 1:UART0_TXD
+2018-08-11 15:27:16:0388 I [GPIOEditor] updateGPIOTable set Used for Used for UART0_TXD
+2018-08-11 15:27:16:0388 I [GPIOInfo] setVarStr, pinIndex=5, varStr=
+2018-08-11 15:27:16:0388 I [GPIOInfo] setVarStr, pinIndex=5, varStr=HAL_UART0_TXD_PIN
+2018-08-11 15:27:16:0389 I [GPIOEditor] updateGPIOTable, gpio index = 6, mode = 0:GPIO6
+2018-08-11 15:27:16:0389 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO6
+2018-08-11 15:27:16:0390 I [GPIOEditor] updateGPIOTable, gpio index = 7, mode = 0:GPIO7
+2018-08-11 15:27:16:0390 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO7
+2018-08-11 15:27:16:0392 I [GPIOEditor] updateGPIOTable, gpio index = 8, mode = 0:GPIO8
+2018-08-11 15:27:16:0392 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO8
+2018-08-11 15:27:16:0395 I [GPIOEditor] updateGPIOTable, gpio index = 9, mode = 0:GPIO9
+2018-08-11 15:27:16:0395 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO9
+2018-08-11 15:27:16:0397 I [GPIOEditor] updateGPIOTable, gpio index = 10, mode = 0:GPIO10
+2018-08-11 15:27:16:0397 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO10
+2018-08-11 15:27:16:0398 I [GPIOEditor] updateGPIOTable, gpio index = 11, mode = 0:GPIO11
+2018-08-11 15:27:16:0398 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO11
+2018-08-11 15:27:16:0400 I [GPIOEditor] updateGPIOTable, gpio index = 12, mode = 0:GPIO12
+2018-08-11 15:27:16:0400 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO12
+2018-08-11 15:27:16:0401 I [GPIOEditor] updateGPIOTable, gpio index = 13, mode = 1:MSDC0_CMD
+2018-08-11 15:27:16:0401 I [GPIOEditor] updateGPIOTable set Used for Used for MSDC0_CMD
+2018-08-11 15:27:16:0401 I [GPIOInfo] setVarStr, pinIndex=13, varStr=
+2018-08-11 15:27:16:0401 I [GPIOInfo] setVarStr, pinIndex=13, varStr=HAL_MSDC_0_CM_PIN
+2018-08-11 15:27:16:0402 I [GPIOEditor] updateGPIOTable, gpio index = 14, mode = 0:GPIO14
+2018-08-11 15:27:16:0403 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO14
+2018-08-11 15:27:16:0404 I [GPIOEditor] updateGPIOTable, gpio index = 15, mode = 0:GPIO15
+2018-08-11 15:27:16:0404 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO15
+2018-08-11 15:27:16:0405 I [GPIOEditor] updateGPIOTable, gpio index = 16, mode = 3:I2C1_SCL
+2018-08-11 15:27:16:0405 I [GPIOEditor] updateGPIOTable set Used for Used for I2C1_SCL
+2018-08-11 15:27:16:0405 I [GPIOInfo] setVarStr, pinIndex=16, varStr=
+2018-08-11 15:27:16:0405 I [GPIOInfo] setVarStr, pinIndex=16, varStr=HAL_I2C_MASTER_1_SCL_PIN
+2018-08-11 15:27:16:0407 I [GPIOEditor] updateGPIOTable, gpio index = 17, mode = 3:I2C1_SDA
+2018-08-11 15:27:16:0407 I [GPIOEditor] updateGPIOTable set Used for Used for I2C1_SDA
+2018-08-11 15:27:16:0407 I [GPIOInfo] setVarStr, pinIndex=17, varStr=
+2018-08-11 15:27:16:0407 I [GPIOInfo] setVarStr, pinIndex=17, varStr=HAL_I2C_MASTER_1_SDA_PIN
+2018-08-11 15:27:16:0408 I [GPIOEditor] updateGPIOTable, gpio index = 18, mode = 0:GPIO18
+2018-08-11 15:27:16:0408 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO18
+2018-08-11 15:27:16:0409 I [GPIOEditor] updateGPIOTable, gpio index = 19, mode = 2:SPI_MST1_CS
+2018-08-11 15:27:16:0409 I [GPIOEditor] updateGPIOTable set Used for Used for SPI_MST1_CS
+2018-08-11 15:27:16:0410 I [GPIOInfo] setVarStr, pinIndex=19, varStr=
+2018-08-11 15:27:16:0410 I [GPIOInfo] setVarStr, pinIndex=19, varStr=HAL_SPI_MASTER1_CS_PIN
+2018-08-11 15:27:16:0411 I [GPIOEditor] updateGPIOTable, gpio index = 20, mode = 2:SPI_MST1_MISO
+2018-08-11 15:27:16:0411 I [GPIOEditor] updateGPIOTable set Used for Used for SPI_MST1_MISO
+2018-08-11 15:27:16:0411 I [GPIOInfo] setVarStr, pinIndex=20, varStr=
+2018-08-11 15:27:16:0411 I [GPIOInfo] setVarStr, pinIndex=20, varStr=HAL_SPI_MASTER1_MISO_PIN
+2018-08-11 15:27:16:0412 I [GPIOEditor] updateGPIOTable, gpio index = 21, mode = 2:SPI_MST1_MOSI
+2018-08-11 15:27:16:0412 I [GPIOEditor] updateGPIOTable set Used for Used for SPI_MST1_MOSI
+2018-08-11 15:27:16:0413 I [GPIOInfo] setVarStr, pinIndex=21, varStr=
+2018-08-11 15:27:16:0413 I [GPIOInfo] setVarStr, pinIndex=21, varStr=HAL_SPI_MASTER1_MOSI_PIN
+2018-08-11 15:27:16:0416 I [GPIOEditor] updateGPIOTable, gpio index = 22, mode = 2:SPI_MST1_SCK
+2018-08-11 15:27:16:0416 I [GPIOEditor] updateGPIOTable set Used for Used for SPI_MST1_SCK
+2018-08-11 15:27:16:0416 I [GPIOInfo] setVarStr, pinIndex=22, varStr=
+2018-08-11 15:27:16:0416 I [GPIOInfo] setVarStr, pinIndex=22, varStr=HAL_SPI_MASTER1_SCK_PIN
+2018-08-11 15:27:16:0417 I [GPIOEditor] updateGPIOTable, gpio index = 23, mode = 0:GPIO23
+2018-08-11 15:27:16:0417 I [GPIOEditor] updateGPIOTable set Used for Used for GPIO23
+2018-08-11 15:27:16:0419 I [GPIOEditor] updateGPIOTable, gpio index = 24, mode = NC
+2018-08-11 15:27:16:0419 I [GPIOInfo] setUserInfo, pinIndex=24, info=No User
+2018-08-11 15:27:16:0421 I [GPIOEditor] updateGPIOTable, gpio index = 25, mode = NC
+2018-08-11 15:27:16:0421 I [GPIOInfo] setUserInfo, pinIndex=25, info=No User
+2018-08-11 15:27:16:0423 I [GPIOEditor] updateGPIOTable, gpio index = 26, mode = NC
+2018-08-11 15:27:16:0423 I [GPIOInfo] setUserInfo, pinIndex=26, info=No User
+2018-08-11 15:27:16:0424 I [GPIOEditor] updateGPIOTable, gpio index = 27, mode = NC
+2018-08-11 15:27:16:0424 I [GPIOInfo] setUserInfo, pinIndex=27, info=No User
+2018-08-11 15:27:16:0425 I [GPIOEditor] updateGPIOTable, gpio index = 28, mode = NC
+2018-08-11 15:27:16:0426 I [GPIOInfo] setUserInfo, pinIndex=28, info=No User
+2018-08-11 15:27:16:0427 I [GPIOEditor] updateGPIOTable, gpio index = 29, mode = NC
+2018-08-11 15:27:16:0427 I [GPIOInfo] setUserInfo, pinIndex=29, info=No User
+2018-08-11 15:27:16:0428 I [GPIOEditor] updateGPIOTable, gpio index = 30, mode = 3:CLKO3
+2018-08-11 15:27:16:0428 I [GPIOEditor] updateGPIOTable set Used for Used for CLKO3
+2018-08-11 15:27:16:0430 I [GPIOEditor] updateGPIOTable, gpio index = 31, mode = 3:UART2_RXD
+2018-08-11 15:27:16:0430 I [GPIOEditor] updateGPIOTable set Used for Used for UART2_RXD
+2018-08-11 15:27:16:0430 I [GPIOInfo] setVarStr, pinIndex=31, varStr=
+2018-08-11 15:27:16:0430 I [GPIOInfo] setVarStr, pinIndex=31, varStr=HAL_UART2_RXD_PIN
+2018-08-11 15:27:16:0431 I [GPIOEditor] updateGPIOTable, gpio index = 32, mode = 3:UART2_TXD
+2018-08-11 15:27:16:0431 I [GPIOEditor] updateGPIOTable set Used for Used for UART2_TXD
+2018-08-11 15:27:16:0432 I [GPIOInfo] setVarStr, pinIndex=32, varStr=
+2018-08-11 15:27:16:0432 I [GPIOInfo] setVarStr, pinIndex=32, varStr=HAL_UART2_TXD_PIN
+2018-08-11 15:27:16:0433 I [GPIOEditor] updateGPIOTable, gpio index = 33, mode = 2:AP_JTMS
+2018-08-11 15:27:16:0433 I [GPIOEditor] updateGPIOTable set Used for Used for AP_JTMS
+2018-08-11 15:27:16:0434 I [GPIOEditor] updateGPIOTable, gpio index = 34, mode = 2:AP_JTCK
+2018-08-11 15:27:16:0434 I [GPIOEditor] updateGPIOTable set Used for Used for AP_JTCK
+2018-08-11 15:27:16:0436 I [GPIOEditor] updateGPIOTable, gpio index = 35, mode = 7:EINT12
+2018-08-11 15:27:16:0436 I [GPIOEditor] updateGPIOTable set Used for Used for EINT12
+2018-08-11 15:27:16:0437 I [GPIOEditor] updateGPIOTable, gpio index = 36, mode = 7:EINT13
+2018-08-11 15:27:16:0437 I [GPIOEditor] updateGPIOTable set Used for Used for EINT13
+2018-08-11 15:27:16:0605 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-08-11 15:27:16:0613 I [KeypadInfo] setDebounceTime, value=16
+2018-08-11 15:27:16:0614 I [KeypadInfo] setLongpressTime, value=2000
+2018-08-11 15:27:16:0615 I [KeypadInfo] setRepeatTime, value=1000
+2018-08-11 15:27:16:0622 I [GPIOEditor] initTableItemBackground, GAIOEditor count=37
+2018-08-11 15:27:16:0622 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-08-11 15:27:16:0622 I [EINTEditor] initTableItemBackground, EINTEditor count=32
+2018-08-11 15:27:18:0307 I [GPIOEditor] mTableListener::currentMode=2:SPI_MST1_MOSI,pinIndex=21
+2018-08-11 15:27:19:0648 I [GPIOEditor] mTableListener::currentMode=3:UART2_RXD,pinIndex=31
+2018-08-11 15:27:24:0370 I [EPTEditor] onEdited()!
+2018-08-11 15:27:24:0370 I [GPIOEditor] GPIO Pin31 PUPD: 0--Disable
+2018-08-11 15:27:24:0370 I [GPIOInfo] setPUPDSelected, pinIndex=31, pupdIndex=0
+2018-08-11 15:27:24:0370 I [GPIOInfo] setOutHighValue, pinIndex=31, outhigh=0
+2018-08-11 15:27:24:0370 I [GPIOInfo] setDirectionSelected, pinIndex=31, dirIndex=0
+2018-08-11 15:27:31:0030 I [EPTEditor] EINT TabItem: [NC, 4:KP_COL1, 1:UART0_RXD, 0:GPIO3, 0:GPIO4, 1:UART0_TXD, 0:GPIO6, 0:GPIO7, 0:GPIO8, 0:GPIO9, 0:GPIO10, 0:GPIO11, 0:GPIO12, 1:MSDC0_CMD, 0:GPIO14, 0:GPIO15, 3:I2C1_SCL, 3:I2C1_SDA, 0:GPIO18, 2:SPI_MST1_CS, 2:SPI_MST1_MISO, 2:SPI_MST1_MOSI, 2:SPI_MST1_SCK, 0:GPIO23, NC, NC, NC, NC, NC, NC, 3:CLKO3, 3:UART2_RXD, 3:UART2_TXD, 2:AP_JTMS, 2:AP_JTCK, 7:EINT12, 7:EINT13]
+2018-08-11 15:27:42:0226 I [EPTEditor] SaveAction start
+2018-08-11 15:27:42:0250 I [Controller] save, save data into ews file: E:\Z6\project\mt2625_evb\apps\nbiot_m2m_demo\ept_config\MT2625 EVB_DWS_GPS_20171113a.ews
+2018-08-11 15:27:42:0250 I [EPTEditor] SaveAction/OpenAction time=0
+2018-08-11 15:27:43:0747 I [EPTEditor] Generate Code,event.text=null,and event.type13
+2018-08-11 15:27:43:0747 I [EPTEditor] Controller Generate Code!
+2018-08-11 15:27:43:0748 I [CodeGenerator] genGPIO_H begin!
+2018-08-11 15:27:43:0749 I [CodeGenGeneral] genGPIO_H_InOutput
+2018-08-11 15:27:43:0749 I [CodeGenGeneral] genGPIO_H_OutHigh
+2018-08-11 15:27:43:0749 I [CodeGenGeneral] genGPIO_H_PullUpDown
+2018-08-11 15:27:43:0750 I [CodeGenerator] genGPIO_H done!
+2018-08-11 15:27:43:0750 I [CodeGenerator] genGPIO_C begin!
+2018-08-11 15:27:43:0753 I [CodeGenerator] genGPIO_C done!
+2018-08-11 15:27:43:0753 I [CodeGenerator] genEINT_H begin!
+2018-08-11 15:27:43:0754 I [CodeGenerator] genEINT_H done!
+2018-08-11 15:27:43:0754 I [CodeGenerator] genEINT_C begin!
+2018-08-11 15:27:43:0755 I [CodeGenerator] genEINT_C done!
+2018-08-11 15:27:43:0755 I [CodeGenerator] genKeyPad_H begin!
+2018-08-11 15:27:43:0756 I [CodeGenerator] genKeyPad_H done!

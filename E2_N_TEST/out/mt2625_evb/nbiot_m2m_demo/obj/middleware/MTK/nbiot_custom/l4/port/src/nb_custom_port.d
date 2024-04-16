@@ -1,0 +1,20 @@
+/e/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/obj/middleware/MTK/nbiot_custom/l4/port/src/nb_custom_port.o /e/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/obj/middleware/MTK/nbiot_custom/l4/port/src/nb_custom_port.d: \
+ ../../../middleware/MTK/nbiot_custom/l4/port/src/nb_custom_port.c \
+ ../../../middleware/MTK/nbiot_custom/l4/port/src/nb_custom_port_config.h \
+ ../../../middleware/MTK/port_service/inc/serial_port.h \
+ ../../../middleware/MTK/port_service/inc/serial_port_config.h \
+ ../../../driver/chip/inc/hal_uart.h \
+ ../../../driver/chip/mt2625/inc/hal_platform.h \
+ ../../../driver/chip/inc/hal_define.h \
+ ../../../prebuilt/middleware/MTK/nbiot/inc/sys/inc/stdbool.h \
+ e:/NBIOT_MT2625_N1/project/mt2625_evb/apps/nbiot_m2m_demo/GCC/../inc/hal_feature_config.h \
+ ../../../driver/CMSIS/Device/MTK/mt2625/Include/mt2625.h \
+ ../../../driver/CMSIS/Include/core_cm4.h \
+ ../../../driver/CMSIS/Include/core_cmInstr.h \
+ ../../../driver/CMSIS/Include/core_cmFunc.h \
+ ../../../driver/CMSIS/Include/core_cmSimd.h \
+ ../../../driver/CMSIS/Device/MTK/mt2625/Include/system_mt2625.h \
+ ../../../driver/chip/mt2625/inc/hal_weak.h \
+ e:/NBIOT_MT2625_N1/project/mt2625_evb/apps/nbiot_m2m_demo/GCC/../inc/memory_map.h \
+ ../../../middleware/MTK/port_service/inc/serial_port_fake.h \
+ ../../../middleware/MTK/nbiot_custom/l4/port/inc/nb_custom_port.h

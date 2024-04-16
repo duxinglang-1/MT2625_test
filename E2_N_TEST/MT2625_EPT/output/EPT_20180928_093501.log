@@ -1,0 +1,270 @@
+2018-09-28 09:35:01:0526 I [EPTMain] 7580@WIN7
+2018-09-28 09:35:01:0527 I [EPTMain] EPTMain Pid:7580
+2018-09-28 09:35:01:0528 I [EPTUtil] getOutputPath: E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept
+2018-09-28 09:35:01:0528 I [EPTUtil] getOutputPath: E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept
+2018-09-28 09:35:01:0532 I [EPTUtil] run in ept GUI jar
+2018-09-28 09:35:05:0881 I [EPTEditor] new Action - select chip,mIsSave=true mIsEdited=false
+2018-09-28 09:35:08:0046 I [EPTEditor] EPTEditor New Chip: 2625
+2018-09-28 09:35:44:0026 I [Controller] newEWS, new workspace: E:\H10_DOC\project\mt2625_evb\apps\nbiot_m2m_demo\ept_config\MT2625 EVB_DWS_GPS_20171113a.ews
+2018-09-28 09:35:44:0027 I [EPTEditor] EPTEditor New Workspace File: MT2625 EVB_DWS_GPS_20171113a.ews
+2018-09-28 09:35:44:0028 I [Controller] setCurrentChip, chipType=2625
+2018-09-28 09:35:44:0028 I [FileParser] parseChipFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\platform\2625.chip
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = Chip Type
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = VOLTAGE_TYPE
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = DVDD_IO
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = EINT
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = KEYPAD
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = KEYPAD_EXTEND_TYPE
+2018-09-28 09:35:44:0029 I [FileParser] parseChipFile, parse section = GPIO
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = GPIO_USED
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD,3.3V
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD1,3.3V
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD2,3.3V
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD3,3.3V
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD4,3.3V
+2018-09-28 09:35:44:0031 I [FileParser] parseChipFile, parse section = PUPD5,3.3V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD6,3.3V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD1,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD2,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD3,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD4,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD5,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD6,2.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD,1.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD1,1.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD2,1.8V
+2018-09-28 09:35:44:0032 I [FileParser] parseChipFile, parse section = PUPD3,1.8V
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = PUPD4,1.8V
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = PUPD5,1.8V
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = PUPD6,1.8V
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = DEFAULT_PUPD
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = GPIO_PREDEFINED_MACRO_STRING
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = MACRO_DEFINE
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = GPIO_variables
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = GPIO_variables_default_map
+2018-09-28 09:35:44:0033 I [FileParser] parseChipFile, parse section = EINT_variables
+2018-09-28 09:35:44:0034 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\gpio.conf
+2018-09-28 09:35:44:0035 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\eint.conf
+2018-09-28 09:35:44:0036 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\keypad.conf
+2018-09-28 09:35:44:0037 I [Controller] parseChipConfig, done
+2018-09-28 09:35:44:0037 I [EPTData] initData
+2018-09-28 09:35:44:0139 I [GPIOEditor] updateGPIOTable, gpio index = 0, mode = NC
+2018-09-28 09:35:44:0139 I [GPIOInfo] setUserInfo, pinIndex=0, info=No User
+2018-09-28 09:35:44:0141 I [GPIOEditor] updateGPIOTable, gpio index = 1, mode = NC
+2018-09-28 09:35:44:0141 I [GPIOInfo] setUserInfo, pinIndex=1, info=No User
+2018-09-28 09:35:44:0143 I [GPIOEditor] updateGPIOTable, gpio index = 2, mode = NC
+2018-09-28 09:35:44:0143 I [GPIOInfo] setUserInfo, pinIndex=2, info=No User
+2018-09-28 09:35:44:0145 I [GPIOEditor] updateGPIOTable, gpio index = 3, mode = NC
+2018-09-28 09:35:44:0145 I [GPIOInfo] setUserInfo, pinIndex=3, info=No User
+2018-09-28 09:35:44:0147 I [GPIOEditor] updateGPIOTable, gpio index = 4, mode = NC
+2018-09-28 09:35:44:0149 I [GPIOInfo] setUserInfo, pinIndex=4, info=No User
+2018-09-28 09:35:44:0154 I [GPIOEditor] updateGPIOTable, gpio index = 5, mode = NC
+2018-09-28 09:35:44:0154 I [GPIOInfo] setUserInfo, pinIndex=5, info=No User
+2018-09-28 09:35:44:0156 I [GPIOEditor] updateGPIOTable, gpio index = 6, mode = NC
+2018-09-28 09:35:44:0156 I [GPIOInfo] setUserInfo, pinIndex=6, info=No User
+2018-09-28 09:35:44:0157 I [GPIOEditor] updateGPIOTable, gpio index = 7, mode = NC
+2018-09-28 09:35:44:0157 I [GPIOInfo] setUserInfo, pinIndex=7, info=No User
+2018-09-28 09:35:44:0159 I [GPIOEditor] updateGPIOTable, gpio index = 8, mode = NC
+2018-09-28 09:35:44:0159 I [GPIOInfo] setUserInfo, pinIndex=8, info=No User
+2018-09-28 09:35:44:0161 I [GPIOEditor] updateGPIOTable, gpio index = 9, mode = NC
+2018-09-28 09:35:44:0161 I [GPIOInfo] setUserInfo, pinIndex=9, info=No User
+2018-09-28 09:35:44:0163 I [GPIOEditor] updateGPIOTable, gpio index = 10, mode = NC
+2018-09-28 09:35:44:0163 I [GPIOInfo] setUserInfo, pinIndex=10, info=No User
+2018-09-28 09:35:44:0165 I [GPIOEditor] updateGPIOTable, gpio index = 11, mode = NC
+2018-09-28 09:35:44:0165 I [GPIOInfo] setUserInfo, pinIndex=11, info=No User
+2018-09-28 09:35:44:0167 I [GPIOEditor] updateGPIOTable, gpio index = 12, mode = NC
+2018-09-28 09:35:44:0167 I [GPIOInfo] setUserInfo, pinIndex=12, info=No User
+2018-09-28 09:35:44:0169 I [GPIOEditor] updateGPIOTable, gpio index = 13, mode = NC
+2018-09-28 09:35:44:0169 I [GPIOInfo] setUserInfo, pinIndex=13, info=No User
+2018-09-28 09:35:44:0172 I [GPIOEditor] updateGPIOTable, gpio index = 14, mode = NC
+2018-09-28 09:35:44:0172 I [GPIOInfo] setUserInfo, pinIndex=14, info=No User
+2018-09-28 09:35:44:0175 I [GPIOEditor] updateGPIOTable, gpio index = 15, mode = NC
+2018-09-28 09:35:44:0175 I [GPIOInfo] setUserInfo, pinIndex=15, info=No User
+2018-09-28 09:35:44:0177 I [GPIOEditor] updateGPIOTable, gpio index = 16, mode = NC
+2018-09-28 09:35:44:0177 I [GPIOInfo] setUserInfo, pinIndex=16, info=No User
+2018-09-28 09:35:44:0179 I [GPIOEditor] updateGPIOTable, gpio index = 17, mode = NC
+2018-09-28 09:35:44:0179 I [GPIOInfo] setUserInfo, pinIndex=17, info=No User
+2018-09-28 09:35:44:0180 I [GPIOEditor] updateGPIOTable, gpio index = 18, mode = NC
+2018-09-28 09:35:44:0180 I [GPIOInfo] setUserInfo, pinIndex=18, info=No User
+2018-09-28 09:35:44:0182 I [GPIOEditor] updateGPIOTable, gpio index = 19, mode = NC
+2018-09-28 09:35:44:0182 I [GPIOInfo] setUserInfo, pinIndex=19, info=No User
+2018-09-28 09:35:44:0184 I [GPIOEditor] updateGPIOTable, gpio index = 20, mode = NC
+2018-09-28 09:35:44:0184 I [GPIOInfo] setUserInfo, pinIndex=20, info=No User
+2018-09-28 09:35:44:0187 I [GPIOEditor] updateGPIOTable, gpio index = 21, mode = NC
+2018-09-28 09:35:44:0187 I [GPIOInfo] setUserInfo, pinIndex=21, info=No User
+2018-09-28 09:35:44:0193 I [GPIOEditor] updateGPIOTable, gpio index = 22, mode = NC
+2018-09-28 09:35:44:0193 I [GPIOInfo] setUserInfo, pinIndex=22, info=No User
+2018-09-28 09:35:44:0195 I [GPIOEditor] updateGPIOTable, gpio index = 23, mode = NC
+2018-09-28 09:35:44:0195 I [GPIOInfo] setUserInfo, pinIndex=23, info=No User
+2018-09-28 09:35:44:0197 I [GPIOEditor] updateGPIOTable, gpio index = 24, mode = NC
+2018-09-28 09:35:44:0197 I [GPIOInfo] setUserInfo, pinIndex=24, info=No User
+2018-09-28 09:35:44:0198 I [GPIOEditor] updateGPIOTable, gpio index = 25, mode = NC
+2018-09-28 09:35:44:0199 I [GPIOInfo] setUserInfo, pinIndex=25, info=No User
+2018-09-28 09:35:44:0200 I [GPIOEditor] updateGPIOTable, gpio index = 26, mode = NC
+2018-09-28 09:35:44:0200 I [GPIOInfo] setUserInfo, pinIndex=26, info=No User
+2018-09-28 09:35:44:0205 I [GPIOEditor] updateGPIOTable, gpio index = 27, mode = NC
+2018-09-28 09:35:44:0205 I [GPIOInfo] setUserInfo, pinIndex=27, info=No User
+2018-09-28 09:35:44:0207 I [GPIOEditor] updateGPIOTable, gpio index = 28, mode = NC
+2018-09-28 09:35:44:0207 I [GPIOInfo] setUserInfo, pinIndex=28, info=No User
+2018-09-28 09:35:44:0209 I [GPIOEditor] updateGPIOTable, gpio index = 29, mode = NC
+2018-09-28 09:35:44:0209 I [GPIOInfo] setUserInfo, pinIndex=29, info=No User
+2018-09-28 09:35:44:0211 I [GPIOEditor] updateGPIOTable, gpio index = 30, mode = NC
+2018-09-28 09:35:44:0211 I [GPIOInfo] setUserInfo, pinIndex=30, info=No User
+2018-09-28 09:35:44:0214 I [GPIOEditor] updateGPIOTable, gpio index = 31, mode = NC
+2018-09-28 09:35:44:0214 I [GPIOInfo] setUserInfo, pinIndex=31, info=No User
+2018-09-28 09:35:44:0217 I [GPIOEditor] updateGPIOTable, gpio index = 32, mode = NC
+2018-09-28 09:35:44:0217 I [GPIOInfo] setUserInfo, pinIndex=32, info=No User
+2018-09-28 09:35:44:0219 I [GPIOEditor] updateGPIOTable, gpio index = 33, mode = NC
+2018-09-28 09:35:44:0219 I [GPIOInfo] setUserInfo, pinIndex=33, info=No User
+2018-09-28 09:35:44:0221 I [GPIOEditor] updateGPIOTable, gpio index = 34, mode = NC
+2018-09-28 09:35:44:0221 I [GPIOInfo] setUserInfo, pinIndex=34, info=No User
+2018-09-28 09:35:44:0223 I [GPIOEditor] updateGPIOTable, gpio index = 35, mode = NC
+2018-09-28 09:35:44:0223 I [GPIOInfo] setUserInfo, pinIndex=35, info=No User
+2018-09-28 09:35:44:0224 I [GPIOEditor] updateGPIOTable, gpio index = 36, mode = NC
+2018-09-28 09:35:44:0224 I [GPIOInfo] setUserInfo, pinIndex=36, info=No User
+2018-09-28 09:35:44:0530 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-09-28 09:35:44:0544 I [KeypadInfo] setDebounceTime, value=16
+2018-09-28 09:35:44:0546 I [KeypadInfo] setLongpressTime, value=2000
+2018-09-28 09:35:44:0547 I [KeypadInfo] setRepeatTime, value=1000
+2018-09-28 09:35:44:0555 I [GPIOEditor] initTableItemBackground, GAIOEditor count=37
+2018-09-28 09:35:44:0557 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-09-28 09:35:44:0557 I [EINTEditor] initTableItemBackground, EINTEditor count=32
+2018-09-28 09:35:52:0007 I [GPIOEditor] mTableListener::currentMode=NC,pinIndex=16
+2018-09-28 09:36:20:0538 I [GPIOEditor] mTableListener::currentMode=NC,pinIndex=0
+2018-09-28 09:36:27:0342 I [EPTEditor] new Action - select chip,mIsSave=false mIsEdited=false
+2018-09-28 09:36:28:0528 I [EPTEditor] EPTEditor New Chip: 2625
+2018-09-28 09:36:45:0921 I [Controller] newEWS, new workspace: E:\H10_v1.5\project\mt2625_evb\apps\nbiot_m2m_demo\ept_config\MT2625 EVB_DWS_GPS_20171113a.ews
+2018-09-28 09:36:45:0921 I [EPTEditor] EPTEditor New Workspace File: MT2625 EVB_DWS_GPS_20171113a.ews
+2018-09-28 09:36:45:0921 I [Controller] setCurrentChip, chipType=2625
+2018-09-28 09:36:45:0921 I [FileParser] parseChipFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\platform\2625.chip
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = Chip Type
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = VOLTAGE_TYPE
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = DVDD_IO
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = EINT
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = KEYPAD
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = KEYPAD_EXTEND_TYPE
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = GPIO
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = GPIO_USED
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = PUPD,3.3V
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = PUPD1,3.3V
+2018-09-28 09:36:45:0922 I [FileParser] parseChipFile, parse section = PUPD2,3.3V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD3,3.3V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD4,3.3V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD5,3.3V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD6,3.3V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD1,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD2,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD3,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD4,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD5,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD6,2.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD,1.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD1,1.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD2,1.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD3,1.8V
+2018-09-28 09:36:45:0923 I [FileParser] parseChipFile, parse section = PUPD4,1.8V
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = PUPD5,1.8V
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = PUPD6,1.8V
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = DEFAULT_PUPD
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = GPIO_PREDEFINED_MACRO_STRING
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = MACRO_DEFINE
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = GPIO_variables
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = GPIO_variables_default_map
+2018-09-28 09:36:45:0924 I [FileParser] parseChipFile, parse section = EINT_variables
+2018-09-28 09:36:45:0924 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\gpio.conf
+2018-09-28 09:36:45:0925 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\eint.conf
+2018-09-28 09:36:45:0925 I [FileParser] parseConfFile, parse file \E:\NB2625开发资料\TOOL\MT2625_EPT_Windows_IOT\MT2625_EPT_Windows_exe_V2.5.4\EPT_Windows_v2.5.4\ept\EPT\ept_lib\..\..\configuration\keypad.conf
+2018-09-28 09:36:45:0925 I [Controller] parseChipConfig, done
+2018-09-28 09:36:45:0925 I [EPTData] initData
+2018-09-28 09:36:45:0932 I [EPTEditor] tabFolder.getItemCount()=3
+2018-09-28 09:36:45:0932 I [EPTEditor] call tabItem.dispose()
+2018-09-28 09:36:45:0947 I [EPTEditor] call tabItem.dispose()
+2018-09-28 09:36:45:0948 I [GPIOEditor] mGPIOTable.dispose()
+2018-09-28 09:36:46:0032 I [GPIOEditor] updateGPIOTable, gpio index = 0, mode = NC
+2018-09-28 09:36:46:0032 I [GPIOInfo] setUserInfo, pinIndex=0, info=No User
+2018-09-28 09:36:46:0034 I [GPIOEditor] updateGPIOTable, gpio index = 1, mode = NC
+2018-09-28 09:36:46:0034 I [GPIOInfo] setUserInfo, pinIndex=1, info=No User
+2018-09-28 09:36:46:0035 I [GPIOEditor] updateGPIOTable, gpio index = 2, mode = NC
+2018-09-28 09:36:46:0035 I [GPIOInfo] setUserInfo, pinIndex=2, info=No User
+2018-09-28 09:36:46:0037 I [GPIOEditor] updateGPIOTable, gpio index = 3, mode = NC
+2018-09-28 09:36:46:0037 I [GPIOInfo] setUserInfo, pinIndex=3, info=No User
+2018-09-28 09:36:46:0039 I [GPIOEditor] updateGPIOTable, gpio index = 4, mode = NC
+2018-09-28 09:36:46:0039 I [GPIOInfo] setUserInfo, pinIndex=4, info=No User
+2018-09-28 09:36:46:0040 I [GPIOEditor] updateGPIOTable, gpio index = 5, mode = NC
+2018-09-28 09:36:46:0040 I [GPIOInfo] setUserInfo, pinIndex=5, info=No User
+2018-09-28 09:36:46:0044 I [GPIOEditor] updateGPIOTable, gpio index = 6, mode = NC
+2018-09-28 09:36:46:0045 I [GPIOInfo] setUserInfo, pinIndex=6, info=No User
+2018-09-28 09:36:46:0046 I [GPIOEditor] updateGPIOTable, gpio index = 7, mode = NC
+2018-09-28 09:36:46:0046 I [GPIOInfo] setUserInfo, pinIndex=7, info=No User
+2018-09-28 09:36:46:0048 I [GPIOEditor] updateGPIOTable, gpio index = 8, mode = NC
+2018-09-28 09:36:46:0048 I [GPIOInfo] setUserInfo, pinIndex=8, info=No User
+2018-09-28 09:36:46:0049 I [GPIOEditor] updateGPIOTable, gpio index = 9, mode = NC
+2018-09-28 09:36:46:0049 I [GPIOInfo] setUserInfo, pinIndex=9, info=No User
+2018-09-28 09:36:46:0051 I [GPIOEditor] updateGPIOTable, gpio index = 10, mode = NC
+2018-09-28 09:36:46:0051 I [GPIOInfo] setUserInfo, pinIndex=10, info=No User
+2018-09-28 09:36:46:0054 I [GPIOEditor] updateGPIOTable, gpio index = 11, mode = NC
+2018-09-28 09:36:46:0054 I [GPIOInfo] setUserInfo, pinIndex=11, info=No User
+2018-09-28 09:36:46:0057 I [GPIOEditor] updateGPIOTable, gpio index = 12, mode = NC
+2018-09-28 09:36:46:0058 I [GPIOInfo] setUserInfo, pinIndex=12, info=No User
+2018-09-28 09:36:46:0059 I [GPIOEditor] updateGPIOTable, gpio index = 13, mode = NC
+2018-09-28 09:36:46:0059 I [GPIOInfo] setUserInfo, pinIndex=13, info=No User
+2018-09-28 09:36:46:0061 I [GPIOEditor] updateGPIOTable, gpio index = 14, mode = NC
+2018-09-28 09:36:46:0061 I [GPIOInfo] setUserInfo, pinIndex=14, info=No User
+2018-09-28 09:36:46:0062 I [GPIOEditor] updateGPIOTable, gpio index = 15, mode = NC
+2018-09-28 09:36:46:0063 I [GPIOInfo] setUserInfo, pinIndex=15, info=No User
+2018-09-28 09:36:46:0064 I [GPIOEditor] updateGPIOTable, gpio index = 16, mode = NC
+2018-09-28 09:36:46:0064 I [GPIOInfo] setUserInfo, pinIndex=16, info=No User
+2018-09-28 09:36:46:0066 I [GPIOEditor] updateGPIOTable, gpio index = 17, mode = NC
+2018-09-28 09:36:46:0066 I [GPIOInfo] setUserInfo, pinIndex=17, info=No User
+2018-09-28 09:36:46:0068 I [GPIOEditor] updateGPIOTable, gpio index = 18, mode = NC
+2018-09-28 09:36:46:0068 I [GPIOInfo] setUserInfo, pinIndex=18, info=No User
+2018-09-28 09:36:46:0070 I [GPIOEditor] updateGPIOTable, gpio index = 19, mode = NC
+2018-09-28 09:36:46:0070 I [GPIOInfo] setUserInfo, pinIndex=19, info=No User
+2018-09-28 09:36:46:0074 I [GPIOEditor] updateGPIOTable, gpio index = 20, mode = NC
+2018-09-28 09:36:46:0074 I [GPIOInfo] setUserInfo, pinIndex=20, info=No User
+2018-09-28 09:36:46:0076 I [GPIOEditor] updateGPIOTable, gpio index = 21, mode = NC
+2018-09-28 09:36:46:0076 I [GPIOInfo] setUserInfo, pinIndex=21, info=No User
+2018-09-28 09:36:46:0078 I [GPIOEditor] updateGPIOTable, gpio index = 22, mode = NC
+2018-09-28 09:36:46:0078 I [GPIOInfo] setUserInfo, pinIndex=22, info=No User
+2018-09-28 09:36:46:0080 I [GPIOEditor] updateGPIOTable, gpio index = 23, mode = NC
+2018-09-28 09:36:46:0080 I [GPIOInfo] setUserInfo, pinIndex=23, info=No User
+2018-09-28 09:36:46:0081 I [GPIOEditor] updateGPIOTable, gpio index = 24, mode = NC
+2018-09-28 09:36:46:0081 I [GPIOInfo] setUserInfo, pinIndex=24, info=No User
+2018-09-28 09:36:46:0086 I [GPIOEditor] updateGPIOTable, gpio index = 25, mode = NC
+2018-09-28 09:36:46:0086 I [GPIOInfo] setUserInfo, pinIndex=25, info=No User
+2018-09-28 09:36:46:0087 I [GPIOEditor] updateGPIOTable, gpio index = 26, mode = NC
+2018-09-28 09:36:46:0087 I [GPIOInfo] setUserInfo, pinIndex=26, info=No User
+2018-09-28 09:36:46:0089 I [GPIOEditor] updateGPIOTable, gpio index = 27, mode = NC
+2018-09-28 09:36:46:0089 I [GPIOInfo] setUserInfo, pinIndex=27, info=No User
+2018-09-28 09:36:46:0091 I [GPIOEditor] updateGPIOTable, gpio index = 28, mode = NC
+2018-09-28 09:36:46:0091 I [GPIOInfo] setUserInfo, pinIndex=28, info=No User
+2018-09-28 09:36:46:0092 I [GPIOEditor] updateGPIOTable, gpio index = 29, mode = NC
+2018-09-28 09:36:46:0092 I [GPIOInfo] setUserInfo, pinIndex=29, info=No User
+2018-09-28 09:36:46:0094 I [GPIOEditor] updateGPIOTable, gpio index = 30, mode = NC
+2018-09-28 09:36:46:0094 I [GPIOInfo] setUserInfo, pinIndex=30, info=No User
+2018-09-28 09:36:46:0096 I [GPIOEditor] updateGPIOTable, gpio index = 31, mode = NC
+2018-09-28 09:36:46:0096 I [GPIOInfo] setUserInfo, pinIndex=31, info=No User
+2018-09-28 09:36:46:0098 I [GPIOEditor] updateGPIOTable, gpio index = 32, mode = NC
+2018-09-28 09:36:46:0098 I [GPIOInfo] setUserInfo, pinIndex=32, info=No User
+2018-09-28 09:36:46:0099 I [GPIOEditor] updateGPIOTable, gpio index = 33, mode = NC
+2018-09-28 09:36:46:0099 I [GPIOInfo] setUserInfo, pinIndex=33, info=No User
+2018-09-28 09:36:46:0104 I [GPIOEditor] updateGPIOTable, gpio index = 34, mode = NC
+2018-09-28 09:36:46:0104 I [GPIOInfo] setUserInfo, pinIndex=34, info=No User
+2018-09-28 09:36:46:0106 I [GPIOEditor] updateGPIOTable, gpio index = 35, mode = NC
+2018-09-28 09:36:46:0106 I [GPIOInfo] setUserInfo, pinIndex=35, info=No User
+2018-09-28 09:36:46:0108 I [GPIOEditor] updateGPIOTable, gpio index = 36, mode = NC
+2018-09-28 09:36:46:0108 I [GPIOInfo] setUserInfo, pinIndex=36, info=No User
+2018-09-28 09:36:46:0400 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-09-28 09:36:46:0414 I [KeypadInfo] setDebounceTime, value=16
+2018-09-28 09:36:46:0415 I [KeypadInfo] setLongpressTime, value=2000
+2018-09-28 09:36:46:0416 I [KeypadInfo] setRepeatTime, value=1000
+2018-09-28 09:36:46:0424 I [GPIOEditor] initTableItemBackground, GAIOEditor count=37
+2018-09-28 09:36:46:0424 I [KeypadEditor] initTableItemBackground, KeypadEditor count=3
+2018-09-28 09:36:46:0424 I [EINTEditor] initTableItemBackground, EINTEditor count=32
+2018-09-28 09:36:57:0759 I [GPIOEditor] mTableListener::currentMode=NC,pinIndex=0
+2018-09-28 09:37:15:0209 I [EPTEditor] EINT TabItem: [NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC]
+2018-09-28 09:37:23:0813 I [EPTEditor] EINT TabItem: [NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC]
+2018-09-28 09:37:43:0783 I [GPIOEditor] mSelectedPin == pinIndex || GPIO_USED
+2018-09-28 09:37:48:0013 I [EPTEditor] EINT TabItem: [NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC, NC]

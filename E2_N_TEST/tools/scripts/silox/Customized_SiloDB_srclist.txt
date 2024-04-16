@@ -1,0 +1,1 @@
+..\..\..\..\..\middleware\MTK\nbiot_custom\gkiprintf\gki_trace.h

@@ -1,0 +1,99 @@
+/* Copyright Statement:
+*
+* (C) 2005-2017  MediaTek Inc. All rights reserved.
+*
+* This software/firmware and related documentation ("MediaTek Software") are
+* protected under relevant copyright laws. The information contained herein
+* is confidential and proprietary to MediaTek Inc. ("MediaTek") and/or its licensors.
+* Without the prior written permission of MediaTek and/or its licensors,
+* any reproduction, modification, use or disclosure of MediaTek Software,
+* and information contained herein, in whole or in part, shall be strictly prohibited.
+* You may only use, reproduce, modify, or distribute (as applicable) MediaTek Software
+* if you have agreed to and been bound by the applicable license agreement with
+* MediaTek ("License Agreement") and been granted explicit permission to do so within
+* the License Agreement ("Permitted User").  If you are not a Permitted User,
+* please cease any access or use of MediaTek Software immediately.
+* BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+* THAT MEDIATEK SOFTWARE RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES
+* ARE PROVIDED TO RECEIVER ON AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL
+* WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+* NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+* SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+* SUPPLIED WITH MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+* THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+* THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+* CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+* SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+* STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+* CUMULATIVE LIABILITY WITH RESPECT TO MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+* AT MEDIATEK'S OPTION, TO REVISE OR REPLACE MEDIATEK SOFTWARE AT ISSUE,
+* OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+* MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+*/
+/*
+ **************************************************************************
+ * File Description : Signal Base definitions for the  set.
+ **************************************************************************/
+
+/*
+** This file deliberately does not have multiple inclusion protection
+** as it can be legitimately included twice in the same file.
+**
+** The KI_BASE_DEF() macro adds _SIGNAL_BASE to the end of the parameter
+** given as the base name. This is done to enforce the GKI naming convention.
+**
+** This must never be included directly by any file outside of the kernel.
+**
+** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+**
+** THE BASES WITHIN A SIGNAL SET SHOULD NOT BE CONDITIONALLY COMPILED
+** IF POSSIBLE AS THIS CAN CAUSE SIGNAL ID'S TO MOVE AROUND. NEW BASES MUST
+** BE ADDED TO THE END OF THE SET (OR USE A REDUNDANT ENTRY) TO MAINTAIN
+** THE BASE NUMBERING FOR THE EXISTING BASES. IF A BASE IS CONDITIONALLY
+** COMPILED THE ELSE CONDITION MUST HAVE RESERVED BASES SO THAT THE
+** NUMBERING IS CONSTANT WHETHER THE CONDITIONAL IS ON OR NOT.
+**
+** FILES SHOULD NOT BE INCLUDED INTO THIS FILE AS ANY ADDITIONS TO THE BASES
+** WITHIN THE INCLUDED FILE WILL AFFECT THE NUMBERING OF ALL BASES DEFINED
+** AFTER THE INCLUSION IN THIS FILE.
+**
+** WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+*/
+
+/***************************************************************************
+** Test Signal Set
+***************************************************************************/
+KI_BASE_DEF (CA)      /* Coolart Signals exchanged between MCT and any MST/PST tasks */
+KI_BASE_DEF (MST_MCT) /* Coolart Signals exchanged between MST and MCT */
+KI_BASE_DEF (PST_MST) /* Coolart Signals exchanged between PST and MST */
+KI_BASE_DEF (GPIB_NI) /* Coolart Signals to communicate with a test instrument using a National Instrument USB to GPIB converter.
+                         Coolart Signals exchanged between GPIB Task and MST */
+KI_BASE_DEF (ATI)     /* Coolart Signals exchanged between MST and ATI task. */
+KI_BASE_DEF (BAMM)    /* Coolart Signals exchanged between MST and BAMM task */
+KI_BASE_DEF (PWRCTRL) /* Coolart Signals exchanged between MST and PWRCTRL task */
+KI_BASE_DEF (CA_UTIL) /* Signals exchanged between MST and CoolART Utility passthru task */
+KI_BASE_DEF (LPT)     /* CoolArt Signals exchanged between MST and LPT task */
+
+KI_BASE_DEF (SOCKET)  /* Coolart signals exchanged between MST and SOCKET task */
+
+KI_BASE_DEF (TMT) /* B2 platform TMT signal base */
+
+KI_BASE_DEF (ADB) /* Advanced Debug Brige interface for Android OS. */
+
+KI_BASE_DEF (HSL)
+KI_BASE_DEF (MD8430)
+
+KI_BASE_DEF (MEMORY_TEST)  /* Coolart signals exchanged between MST and memory test task */
+KI_BASE_DEF (OSDRIVER_TEST) /* Signals for OSDriver test framework */
+
+KI_BASE_DEF (U1_AP_TEST)   /* Test signal to communicate with u1ap */
+KI_BASE_DEF (W1_AP_TEST)   /* Test signal to communicate with w1ap test task */
+KI_BASE_DEF (NET_SIMU_TEST) /* Test signal to communicate with nst task */
+#if defined (UPGRADE_LTE)
+#if defined (INCLUDE_E1VSA)
+KI_BASE_DEF (E1VSA)        /* UL VSA RX signal */
+#endif /* INCLUDE_E1VSA */
+#endif /* DUPGRADE_LTE */
+KI_BASE_DEF (NBHW)
+KI_BASE_DEF (NBL1NETSIM)

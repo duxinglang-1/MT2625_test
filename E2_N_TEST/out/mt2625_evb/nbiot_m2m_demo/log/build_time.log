@@ -1,0 +1,5 @@
+./build.sh mt2625_evb nbiot_m2m_demo
+Start Build: Fri Jan 6 11:27:31 2023
+End Build: Fri Jan 6 11:28:03 2023
+MODULE BUILD custom_lib_md.a PASS
+TOTAL BUILD: PASS

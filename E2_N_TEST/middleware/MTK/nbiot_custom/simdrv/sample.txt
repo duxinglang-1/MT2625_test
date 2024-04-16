@@ -1,0 +1,26 @@
+#include "dcl_sim.h"
+
+static DCL_SIMDriver_t swSimDrv = {
+    // TODO: add software sim driver API implementation
+};
+
+void start_sw_sim()
+{
+    // step1. AT+CFUN=0
+
+    // step2. Hook SIM driver
+    DclSim_Hook_Driver_Table(SIM_CONFIG_AP_TYPE_PHONE1, &swSimDrv);
+    
+    // step3. AT+CFUN=1
+}
+
+void stop_sw_sim()
+{
+    // step1. AT+CFUN=0
+
+    // step2. Restore SIM driver
+    DclSim_Hook_Driver_Table(SIM_CONFIG_AP_TYPE_PHONE1, NULL);
+    
+    // step3. AT+CFUN=1
+}
+

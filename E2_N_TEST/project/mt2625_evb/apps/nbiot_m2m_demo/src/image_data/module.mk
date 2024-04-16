@@ -1,0 +1,128 @@
+
+###################################################
+# Sources
+IMAGE_PATH_DIR = project\mt2625_evb\apps\nbiot_m2m_demo\src
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/image_info.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/main_AudioPlayer.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/coco.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/00.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/11.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/22.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/33.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/44.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/55.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/66.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/77.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/88.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/99.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w1.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w2.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w3.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w4.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w5.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w6.c
+	#C_FILES += $(IMAGE_PATH_DIR)/image_data/w7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/sos.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/s9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/x9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/cdian.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/hartdw.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/hartls.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/c9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/stepdw.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/stepls.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/blh.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/bll.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/poweroff.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/bldw.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/bldwt.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/gpsopen.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/gpssuccess.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/imeivs.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/title.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/tips.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/week.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/Power_off_bg.c
+
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/hart.c
+	ifneq ($(MTK_FONT_SUPPORT), y)
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/message.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/weather.c
+	endif
+
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/dians.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/dian.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/Sedentary_remind.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/Sedentary_reminder_gg.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/Low_battery.c
+
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/calorie.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/distance.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/km_cn.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/m_cn.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/kcalorie_cn.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/hour_cn.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/min_cn.c
+
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/num_9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step0.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step1.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step2.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step3.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step4.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step5.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step6.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step7.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step8.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/step9.c
+	C_FILES += $(IMAGE_PATH_DIR)/image_data/dian_1.c
+
+###################################################
+# include path
+#CFLAGS += -I$(SOURCE_DIR)/middleware/third_party/lwm2m/core

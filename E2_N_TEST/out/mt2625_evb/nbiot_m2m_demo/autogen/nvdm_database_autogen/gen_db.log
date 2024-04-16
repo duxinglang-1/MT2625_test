@@ -1,0 +1,79 @@
+Cgen -c:
+Reading target configuration succeeded.
+Reading PC configuration succeeded.
+Start Parsing: 11:27:50
+Symbol clear time: 0
+Phase 1: 11:27:50
+Modify size of union union_gename_49 from 10 to 12
+Modify size of union union_gename_233 from 14 to 16
+Modify size of union union_gename_455 from 5 to 6
+Modify size of union union_gename_509 from 2140 to 2144
+Modify size of union MessageBodyTag from 250 to 252
+Modify size of union MessageBodyTag from 1594 to 1596
+Modify size of union MessageBodyTag from 1602 to 1604
+Modify size of union MacTFC_SubsetUnionTag from 529 to 530
+Modify size of union SimUiccSecAttributesTag from 35 to 36
+Modify size of union SimatSsAdditResultTag from 243 to 244
+Modify size of union union_gename_49 from 10 to 12
+Modify size of union union_gename_233 from 14 to 16
+Modify size of union union_gename_455 from 5 to 6
+Modify size of union union_gename_509 from 2140 to 2144
+Modify size of union MessageBodyTag from 250 to 252
+Modify size of union MessageBodyTag from 1594 to 1596
+Modify size of union MessageBodyTag from 1602 to 1604
+Modify size of union MacTFC_SubsetUnionTag from 529 to 530
+Modify size of union SimUiccSecAttributesTag from 35 to 36
+Modify size of union SimatSsAdditResultTag from 243 to 244
+Modify size of union SimatProvLocalInformationTag from 82 to 84
+Modify size of union SimatEventDownloadTag from 2166 to 2168
+Phase 2: 11:27:50
+Phase 3: 11:27:50
+Phase 4: 11:27:51
+Symbol clear time: 7
+FastAllocator buffers: 9
+Reading data succeeded.
+Start Parsing: 11:27:51
+Symbol clear time: 0
+Phase 1: 11:27:51
+Modify size of union DiagnosticsUnionTag from 30 to 32
+Modify size of union union_gename_49 from 10 to 12
+Modify size of union union_gename_455 from 5 to 6
+Modify size of union union_gename_509 from 4420 to 4424
+Modify size of union FreqParamUnionTag from 82 to 84
+Modify size of union MessageBodyTag from 250 to 252
+Modify size of union MessageBodyTag from 1594 to 1596
+Modify size of union MessageBodyTag from 1602 to 1604
+Modify size of union CphyQualityCriteriaTag from 66 to 68
+Modify size of union MacTFC_SubsetUnionTag from 529 to 530
+Modify size of union UEngCommandResultInfoUnionTag from 82 to 84
+Modify size of union SimatSsAdditResultTag from 243 to 244
+Modify size of union DiagnosticsUnionTag from 30 to 32
+Modify size of union union_gename_49 from 10 to 12
+Modify size of union union_gename_455 from 5 to 6
+Modify size of union union_gename_509 from 4420 to 4424
+Modify size of union FreqParamUnionTag from 82 to 84
+Modify size of union MessageBodyTag from 250 to 252
+Modify size of union MessageBodyTag from 1594 to 1596
+Modify size of union MessageBodyTag from 1602 to 1604
+Modify size of union CphyQualityCriteriaTag from 66 to 68
+Modify size of union MacTFC_SubsetUnionTag from 529 to 530
+Modify size of union UEngCommandResultInfoUnionTag from 82 to 84
+Modify size of union SimatSsAdditResultTag from 243 to 244
+Modify size of union SimatProvLocalInformationTag from 82 to 84
+Phase 2: 11:27:51
+Phase 3: 11:27:51
+Phase 4: 11:27:51
+Symbol clear time: 6
+FastAllocator buffers: 9
+Reading PC data succeeded.
+Start to parse the NVRAM DATA!
+Generating "e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/nvdm_database.rawdata".
+Check e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/nvdm_database.rawdata
+Check DB result: 0
+Write hash file e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/_nvdm_database.rawdata.check 
+Write DB result: 0
+Create file "e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/nvdm_database.rawdata" successfully.
+Creating file "e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/nvdm_enum.txt".
+Create file "e:/N1/NBIOT_MT2625_N1/out/mt2625_evb/nbiot_m2m_demo/autogen/nvdm_database_autogen/nvdm_enum.txt" successfully.
+CGen time spent : 1014 milliseconds.
+FastAllocator buffers: 1
